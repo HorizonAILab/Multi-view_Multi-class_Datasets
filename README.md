@@ -53,7 +53,7 @@ xxx.mat
 |EDH|Edge Distribution Histogram|
 |WT|Wavelet Texture|
 
-[Note] Modified from this [repo](https://github.com/ChuanbinZhang/Multi-view-datasets).
+[**Note**] Modified from this [repo](https://github.com/ChuanbinZhang/Multi-view-datasets).
 
 
 
