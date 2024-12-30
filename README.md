@@ -51,6 +51,7 @@ We simply adopt the K-Means clustering algorithm as a baseline to evaluate the c
 <img src="./modality_evaluation/radar_figs/NUSWIDE.png width="200" />
 <img src="./modality_evaluation/radar_figs/OutScene.png width="200" />
 <img src="./modality_evaluation/radar_figs/Scene15.png width="200" />
+</p>
 
 
 
