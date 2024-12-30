@@ -57,7 +57,8 @@ xxx.mat
 
 
 ## 🔥 Update
-- [2024/12/30] The script to evaluate the modality quality with K-Means clustering algorithm is uploaded `modality_evaluation/modality_eval.py`!
+- [2024/12/30] Update the feature list of the image datasets!
+- [2024/12/29] The script to evaluate the modality quality with K-Means clustering algorithm is uploaded `modality_evaluation/modality_eval.py`!
 - [2024/08/12] The script for the label distribution plot is uploaded `label_distribution/plot_label_distribution.ipynb`!
 - [2024/08/08] Create a share link to datasets we have collected from the Internet for public research. [[Baidu Netdisk](https://pan.baidu.com/s/1hHN4P_6PaQtO_REbZdb9oQ?pwd=36gc)]
 
