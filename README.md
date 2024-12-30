@@ -34,14 +34,23 @@ xxx.mat
 
 
 ## 🔥 Update
-- [2024/08/12] The script for label distribution plot is uploaded `label_distribution/plot_label_distribution.ipynb`!
+- [2024/12/30] The script to evaluate the modality quality with K-Means clustering algorithm is uploaded `modality_evaluation/modality_eval.py`!
+- [2024/08/12] The script for the label distribution plot is uploaded `label_distribution/plot_label_distribution.ipynb`!
 - [2024/08/08] Create a share link to datasets we have collected from the Internet for public research. [[Baidu Netdisk](https://pan.baidu.com/s/1hHN4P_6PaQtO_REbZdb9oQ?pwd=36gc)]
 
 
 ## 🌋 Modality Evaluation
-We simply adopt the SVM as a baseline to evaluate the contribution of each modality for the classification task.
+We simply adopt the K-Means clustering algorithm as a baseline to evaluate the contribution of each modality under the NMI and Silhouette metrics. The results are as follows:
 
-
+<p align = "center">
+<img src="./modality_evaluation/radar_figs/100Leaves.png width="200" />
+<img src="./modality_evaluation/radar_figs/Caltech101.png width="200" />
+<img src="./modality_evaluation/radar_figs/Caltech101-7.png width="200" />
+<img src="./modality_evaluation/radar_figs/Caltech101-20.png width="200" />
+<img src="./modality_evaluation/radar_figs/Caltech256.png width="200" />
+<img src="./modality_evaluation/radar_figs/NUSWIDE.png width="200" />
+<img src="./modality_evaluation/radar_figs/OutScene.png width="200" />
+<img src="./modality_evaluation/radar_figs/Scene15.png width="200" />
 
 
 
