@@ -30,6 +30,29 @@ xxx.mat
 |---|---X{i}: matrix, double, (sample_number, feature_dimension).
 ```
 
+### 📌 Features for image datasets
+|Abbreviation | Full Name |
+|-------------|-----------|
+|SIFT|Scale Invariant Feature Transform|
+|SD|Shape Descriptor|
+|FSM|Fine Scale Margin|
+|FOU|FOUrier coefficients of the character shapes|
+|FAC|profile correlations|
+|PIX|PIXel averages in 2 × 3 windows|
+|ZER|ZERnike moment|
+|MOR|MORphological features|
+|Gabor|Gabor feature|
+|WM|Wavelet Moments|
+|CENTRIST/CENT|CENTRIST feature|
+|LBP|Local Binary Patterns feature|
+|CH|Color Histogram|
+|TH|Texture Histogram|
+|CM|Color Moments|
+|CS|Color Similiarity|
+|CORR|color CORRelation|
+|EDH|Edge Distribution Histogram|
+|WT|Wavelet Texture|
+* Modified from this [repo](https://github.com/ChuanbinZhang/Multi-view-datasets).
 
 
 
@@ -43,17 +66,15 @@ xxx.mat
 We simply adopt the K-Means clustering algorithm as a baseline to evaluate the contribution of each modality under the NMI and Silhouette metrics. The results are as follows:
 
 <p align = "center">
-<img src="./modality_evaluation/radar_figs/100Leaves.png width="200" />
-<img src="./modality_evaluation/radar_figs/Caltech101.png width="200" />
-<img src="./modality_evaluation/radar_figs/Caltech101-7.png width="200" />
-<img src="./modality_evaluation/radar_figs/Caltech101-20.png width="200" />
-<img src="./modality_evaluation/radar_figs/Caltech256.png width="200" />
-<img src="./modality_evaluation/radar_figs/NUSWIDE.png width="200" />
-<img src="./modality_evaluation/radar_figs/OutScene.png width="200" />
-<img src="./modality_evaluation/radar_figs/Scene15.png width="200" />
+<img src="./modality_evaluation/radar_figs/100Leaves.png" width="200" />
+<img src="./modality_evaluation/radar_figs/Caltech101.png" width="200" />
+<img src="./modality_evaluation/radar_figs/Caltech101-7.png" width="200" />
+<img src="./modality_evaluation/radar_figs/Caltech101-20.png" width="200" />
+<img src="./modality_evaluation/radar_figs/Caltech256.png" width="200" />
+<img src="./modality_evaluation/radar_figs/NUSWIDE.png" width="200" />
+<img src="./modality_evaluation/radar_figs/OutScene.png" width="200" />
+<img src="./modality_evaluation/radar_figs/Scene15.png" width="200" />
 </p>
-
-
 
 
 ## 📊 Label Distribution
