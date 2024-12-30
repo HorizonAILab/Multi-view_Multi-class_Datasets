@@ -25,9 +25,9 @@ This repo contains some benchmarks for evaluating Multi-view Multi-class machine
 ✨ We have collated some publicly available datasets and you can download them from [Baidu Netdisk](https://pan.baidu.com/s/1hHN4P_6PaQtO_REbZdb9oQ?pwd=36gc). The data format is as follows:
 ```
 xxx.mat
-|---gnd: matrix, double, start from 1, (sample_number, 1).
-|---X: cell, (1, view_num)
-|---|---X{i}: matrix, double, (sample_number, feature_dimension).
+├── gnd: matrix, double, start from 1, (sample_number, 1).
+├── X: cell, (1, view_num)
+└── └── X{i}: matrix, double, (sample_number, feature_dimension).
 ```
 
 ### 📌 Features for image datasets
