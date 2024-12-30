@@ -52,7 +52,7 @@ xxx.mat
 |CORR|color CORRelation|
 |EDH|Edge Distribution Histogram|
 |WT|Wavelet Texture|
-* Modified from this [repo](https://github.com/ChuanbinZhang/Multi-view-datasets).
+[Note] Modified from this [repo](https://github.com/ChuanbinZhang/Multi-view-datasets).
 
 
 
